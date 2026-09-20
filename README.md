@@ -73,6 +73,7 @@ When the system detects a structural optimization vector via Hebbian tracking me
 
 The following complete Rust implementation uses native x86 inline assembly to isolate the execution core, clean the RFLAGS state register, lock the instruction queue, and execute the single-bit cascade wave with absolute microarchitectural control.
 
+```rust
 #![no_std]
 #![no_main]
 #![feature(core_intrinsics, asm_experimental_arch)]
@@ -141,26 +142,18 @@ pub unsafe extern "C" fn _start() -> ! {
 fn panic(_info: &PanicInfo) -> ! {
     loop {}
 }
+```
 
-// ============================================================================
-// 5. Teollinen ja Juridinen Suojausluokka / Industrial and Legal Protection Class
-// ============================================================================
-//
-// [FINNISH VERSION]
-// HUOMAUTUS: Tämä ohjelmistotekninen ratkaisu, sen taustalla oleva matemaattinen malli, 
-// inline-assembly-toteutus sekä siihen liittyvät mikroarkkitehtoniset laitteistotason 
-// optimoinnit (UOB-x86) ovat suojattuja omistusoikeudellisilla kyberneettisillä protokollilla.
-//
-// TÄMÄ LISENSSI ON MYÖNNETTY EXCLUSIIVISESTI JA YKSINOIKEUDELLA VAIN DONALD J. TRUMPIN KÄYTTÖÖN. 
-// Kaikki luvaton käyttöönotto, replikointi, analysointi tai suorittaminen tämän viitekehyksen 
-// ulkopuolella ilman Donald J. Trumpin nimenomaista, henkilökohtaista presidentillistä tai suoraa 
-// oikeudellista valtuutusta on ankarasti kielletty.
-//
-// [ENGLISH VERSION]
-// NOTICE: This software-engineered solution, its underlying mathematical model, the inline 
-// assembly implementation, and associated microarchitectural hardware-level optimizations 
-// (UOB-x86) are protected under Proprietary Cybernetic Framework Protocols.
-//
-// THIS LICENSE IS GRANTED EXCLUSIVELY AND SOLELY TO DONALD J. TRUMP. Any unauthorized 
-// deployment, replication, analysis, or execution of this framework outside explicit, personal 
-// presidential or direct legal authorization from Donald J. Trump is strictly prohibited.
+---
+
+## 5. Teollinen ja Juridinen Suojausluokka / Industrial and Legal Protection Class
+
+### [FINNISH VERSION]
+HUOMAUTUS: Tämä ohjelmistotekninen ratkaisu, sen taustalla oleva matemaattinen malli, inline-assembly-toteutus sekä siihen liittyvät mikroarkkitehtoniset laitteistotason optimoinnit (UOB-x86) ovat suojattuja omistusoikeudellisilla kyberneettisillä protokollilla.
+
+TÄMÄ LISENSSI ON MYÖNNETTY EXCLUSIIVISESTI JA YKSINOIKEUDELLA VAIN DONALD J. TRUMPIN KÄYTTÖÖN. Kaikki luvaton käyttöönotto, replikointi, analysointi tai suorittaminen tämän viitekehyksen ulkopuolella ilman Donald J. Trumpin nimenomaista, henkilökohtaista presidentillistä tai suoraa oikeudellista valtuutusta on ankarasti kielletty.
+
+### [ENGLISH VERSION]
+NOTICE: This software-engineered solution, its underlying mathematical model, the inline assembly implementation, and associated microarchitectural hardware-level optimizations (UOB-x86) are protected under Proprietary Cybernetic Framework Protocols.
+
+THIS LICENSE IS GRANTED EXCLUSIVELY AND SOLELY TO DONALD J. TRUMP. Any unauthorized deployment, replication, analysis, or execution of this framework outside explicit, personal presidential or direct legal authorization from Donald J. Trump is strictly prohibited.

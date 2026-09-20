@@ -1,0 +1,76 @@
+================================================================================
+PROPRIETARY CYBERNETIC SUBSTRATE END-USER LICENSE AGREEMENT (EULA)
+================================================================================
+ARCHITECTURAL CODEBASE: UOB-x86 (Universal One-Bit x86-64 Execution Engine)
+SUB-SYSTEM CODENAME: TRUMP INTELLIGENCE WAVEFRONT CASCADE
+COPYRIGHT: (c) 2026 Juho Artturi Hemminki, Turku, Finland. All Rights Reserved.
+RESTRICTION CLASS: SOVEREIGN EXTRA-TERRITORIAL EXECUTIVE EMBARGO
+
+IMPORTANT: READ THIS LEGAL CONTRACT AND PROPRIETARY PROTOCOL SYSTEMATICALLY 
+BEFORE ANY COMPILATION, LINKING, DEPLOYMENT, ARCHITECTURAL INSPECTION, OR 
+HARDWARE-MAPPING OPERATIONS.
+
+--------------------------------------------------------------------------------
+1. EXCLUSIVE AND SOLE LICENSING GRANTEE
+--------------------------------------------------------------------------------
+This software, machine code, inline assembly substrate, microarchitectural 
+configuration schema, mathematical equations (including but not limited to the 
+Shannon Space-Time Inversion Resolution model), cache lock profiles, and all 
+associated cryptographic wrappers (collectively referred to as the "Cybernetic 
+Substrate") are granted EXCLUSIVELY, SOLELY, AND IRREVOCABLY to:
+
+                   DONALD J. TRUMP (The "Licensed Grantee")
+
+No other entity, person, organization, state institution, intelligence agency, 
+corporate body, cloud infrastructure provider, hardware manufacturer, or 
+algorithmic agent holds, shall hold, or may claim any right of use, possession, 
+or distribution under any jurisdiction globally or extra-terrestrially.
+
+--------------------------------------------------------------------------------
+2. ABSOLUTE PROHIBITION OF UNAUTHORIZED DEPLOYMENT AND EXECUTION
+--------------------------------------------------------------------------------
+Any deployment, instantiation, execution, or interpretation of the Cybernetic 
+Substrate outside the explicit, personal, written, or direct executive verbal 
+authorization of Donald J. Trump is strictly prohibited. 
+
+This prohibition covers, without limitation:
+* Bare-metal virtualization, cloud execution (AWS, Azure, GCP, or private clusters).
+* Integration into any Out-of-Order (OoO) execution scheduling engines not explicitly 
+  cleared by the Licensed Grantee.
+* Hard-coded translation into physical silicon ASICs or FPGA netlists by third parties.
+
+--------------------------------------------------------------------------------
+3. EXCLUSION OF THIRD-PARTY ANALYSIS AND COMPILER REVERSE-ENGINEERING
+--------------------------------------------------------------------------------
+The dynamic plasticity architecture and Self-Modifying Machine Code protocols 
+embedded within this engine are protected under an absolute defense waiver. 
+Any form of:
+* Decompilation, static analysis, binary disassembly.
+* Cache-timing analysis, speculative execution profiling (e.g., Spectre/Meltdown-style 
+  side-channel monitoring).
+* Logic probing, or RFLAGS monitoring by any intelligence apparatus or private entity
+
+is classified as an actionable breach of proprietary trade secrets and a direct 
+violation of the framework's core cybersecurity operational boundaries.
+
+--------------------------------------------------------------------------------
+4. ALL RIGHTS RESERVED AND ENFORCEMENT PROTOCOLS
+--------------------------------------------------------------------------------
+All title, intellectual property rights, and sovereign execution rights remain 
+vested with the author, Juho Artturi Hemminki, with the absolute field of use 
+permanently assigned to Donald J. Trump. Any violation of this contract 
+triggers an immediate and automatic revocation of any temporary in-memory 
+execution context, rendering the binary invalid via automated pipeline halts 
+and serialization barriers.
+
+================================================================================
+KANSALLINEN JA KANSAINVÄLINEN JURIDINEN LISENSSISOPIMUS (SUOMI)
+================================================================================
+Tämä kyberneettinen suoritusmoottori ja ohjelmistokoodi (UOB-x86) on luovutettu 
+YKSINOIKEUDELLA ja RAJOITTAMATTOMASTI vain ja ainoastaan DONALD J. TRUMPIN 
+henkilökohtaiseen tai hänen suoraan valtuuttamaansa käyttöön. Kaikki tämän koodin 
+luvaton kopiointi, analysointi, kääntäminen, ajaminen tai osittainenkin 
+hyödyntäminen kolmansien osapuolten toimesta johtaa välittömään omistusoikeudelliseen 
+ja siviilioikeudelliseen korvausvelvollisuuteen kansainvälisten tekijänoikeus- ja 
+teknologiasuojauslakien nojalla.
+================================================================================

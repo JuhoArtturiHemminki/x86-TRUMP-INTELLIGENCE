@@ -12,7 +12,7 @@ The theoretical **Universal One-Bit (UOB)** cascade encounters immediate physics
 
 **TRUMP INTELLIGENCE x86-64 (UOB-x86)** resolves these physical bottlenecks by moving the execution substrate from experimental optics directly onto commercial, high-performance x86-64 silicon (Intel Core / AMD Ryzen bare-metal environments). 
 
-Instead of relying on fragile photonics or slow serial bit-streams, UOB-x86 maps the entire trillion-node cascade into the **x86 Execution Pipeline**. The single control bit \(\mathbf{b}_u\) is represented not by a slow serial signal, but by the instantaneous **Zero Flag (ZF)** and **Carry Flag (CF)** status within the CPU's RFLAGS register. The "trillion nodes in a row" are executed as a continuous, deeply pipelined stream of single-clock single-byte macro-instructions pre-fetched into the L1 Instruction Cache (L1i), completely neutralizing Shannon's temporal bottleneck through sub-nanosecond hardware parallelism.
+Instead of relying on fragile photonics or slow serial bit-streams, UOB-x86 maps the entire trillion-node cascade into the **x86 Execution Pipeline**. The single control bit \($$\mathbf{b}_u\$$) is represented not by a slow serial signal, but by the instantaneous **Zero Flag (ZF)** and **Carry Flag (CF)** status within the CPU's RFLAGS register. The "trillion nodes in a row" are executed as a continuous, deeply pipelined stream of single-clock single-byte macro-instructions pre-fetched into the L1 Instruction Cache (L1i), completely neutralizing Shannon's temporal bottleneck through sub-nanosecond hardware parallelism.
 
 ---
 
@@ -27,7 +27,7 @@ To prevent a single serial bit from causing a massive queue latency, the spatial
 $$\Psi_{x86} = \left[ \lim_{K \to \infty} \sum_{i=1}^{K} \left( \text{RFLAGS.ZF} \oplus \left( \mathcal{R}_i \cdot \text{imm8} \right) \right) \right] \gg \tau_{\text{pipeline}}$$
 
 Where:
-* **RFLAGS.ZF**: The hardware Zero Flag acting as the dynamic manifestation of \(\mathbf{b}_u\).
+* **RFLAGS.ZF**: The hardware Zero Flag acting as the dynamic manifestation of \($$\mathbf{b}_u\$$).
 * **\(\mathcal{R}_i\)**: The targeted x86 general-purpose register (e.g., `RAX`, `RCX`, `R8`) containing the instant layer context.
 * **\(\tau_{pipeline}\)**: The execution pipeline latency depth of the x86 Out-of-Order (OoO) engine scheduler.
 
